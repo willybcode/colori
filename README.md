@@ -20,12 +20,7 @@ For development run:
 ```
 npm run dev
 ```
-or, if you want to be able to access it from other devices on your local network, run:
-
-```
-npm run host
-```
-The command above just runs "vite --host" instead of "vite"
+```--host``` is added to the config so the project can be accessed from other devices on your local network, run:
 
 For production
 
@@ -43,6 +38,7 @@ Note that the vite config was modified so that the project can be hosted with a 
 * [TailwindCSS](https://tailwindcss.com/)
 * [HeadlessUI](https://headlessui.com/)
 * [Toastify](https://fkhadra.github.io/react-toastify/)
+* [Recoil](https://recoiljs.org/)
 
 
 ## Authors
