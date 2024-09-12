@@ -10,21 +10,20 @@ You just need NodeJs to run this project
 
 To install, simply clone the repo or download it then "npm install"
 
-```
+```bash
 git clone
 cd colori
 npm install
 ```
 
 For development run:
+```bash
+npm run dev # you will be able to access it from other devices on your local network as well
 ```
-npm run dev
-```
-```--host``` is added to the config so the project can be accessed from other devices on your local network, run:
 
 For production
 
-```
+```bash
 npm run build
 ```
 
